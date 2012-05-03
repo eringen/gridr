@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en" lang="en-GB">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Demo page</title>
+	<link rel='index' title='Demo page' href='http://demo.domain.com' />
+
+	<link rel="stylesheet" href="css/base.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.rightclick.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	<style type="text/css" media="screen">	
+		/* MAIN CONTAINER */
+		#page {width:984px; margin:0 auto;}
+		
+		/* FRAME SETTINGS */
+		.split {float:left; position:relative;}
+		.frame {clear:both;overflow:hidden;height:1%;}
+		.x1 {width:164px;}
+		.x2 {width:328px;}
+		.x3 {width:492px;}
+		.x4 {width:656px;}
+		.x5 {width:820px;}
+		
+		/* COLUMN SETTINGS */
+		.col {background:#f00; float:left; margin:0 9px;position:relative;display:inline;}
+		.colgroup {margin-bottom:18px; overflow:hidden; height:1%;}
+		.colgroup .g1 {width:146px;}
+		.colgroup .g2 {width:310px;}
+		.colgroup .g3 {width:474px;}
+		.colgroup .g4 {width:638px;}
+		.colgroup .g5 {width:802px;}
+	</style>
+</head>
+<body>
+	<p>
+		Number of columns: <input id="column-number" type="text" style="width:40px" /> - Column width: <input id="column-width" type="text" style="width:40px" /> - L-R Column margin: <input id="column-margin" type="text" style="width:40px" /> - Number of frame rows: <input id="row-number" type="text" style="width:40px" />
+	</p>
+	<p id="colorswitch" style="background:#f00; height:20px; width:20px;"></p>
+	
+	<div id="page" style="background:#eee;">
+		<div id="top">
+			<div role="banner">Some Project</div>
+			<ul id="main-nav" role="navigation">
+				<li>Nav1</li>
+				<li>Nav2</li>
+				<li>Nav3</li>
+			</ul>
+		</div>
+		
+		<div id="main">
+		
+		</div>
+
+		<div id="bottom">
+			<div id="footer" role="footer">
+				footer
+			</div>
+		</div>
+				
+	</div>
+	<textarea id="output1" style="display:block; width:600px; margin:0 auto; height:400px;">
+	
+	</textarea>
+	
+	<textarea id="output2" style="display:block; width:600px; margin:0 auto; height:400px;">
+	
+	</textarea>
+</body>
+</html>
